@@ -156,6 +156,11 @@ The environment-aware weighting, the reference-fragment query protocol, and the
 retrieval benchmark are this project's work; the vendored parser and fragmenter
 implement the paper's rules.
 
+## Acknowledgments
+
+Code, tests, and documentation were developed with assistance from
+Claude Code (Anthropic).
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
