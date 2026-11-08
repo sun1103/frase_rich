@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "frase-rich"
+version = "0.1.0"
+description = "Weighted FRASE triplet fingerprints for fragment retrieval in protein pockets"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.21",
+    "rdkit>=2023.9",
+    "scipy>=1.10",
+]
+
+[project.optional-dependencies]
+parquet = ["pyarrow>=14"]      # patent pool / decomposition drivers
+probe = ["morfeus"]            # scripts/probe_steric_fidelity.py
+
+[tool.setuptools.packages.find]
+include = ["frase_rich*"]

@@ -1,0 +1,29 @@
+# generated data and evaluation artifacts
+work/
+data/
+logs/
+*.log
+*.pkl
+*.npy
+*.npz
+*.parquet
+*.db
+*.sqlite
+*.sqlite3
+*.smi
+*.tsv
+*.csv
+
+# caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# editors / OS
+.DS_Store
+.idea/
+.vscode/
